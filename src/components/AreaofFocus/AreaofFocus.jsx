@@ -71,7 +71,7 @@ const AreaofFocus = () => {
             backgroundColor: "transparent",
           }}
           className="grid_class "
-          data-aos={"fade-left"}
+          data-aos={window.innerWidth < 760 ? "fade-right" : "fade-left"}
           data-aos-easing="ease-out-cubic"
           data-aos-duration="1000"
           // ref={rightDivRef}
@@ -84,7 +84,7 @@ const AreaofFocus = () => {
                 height: "250px",
                 // margin: "10px",
                 color: "white",
-                width: window.innerWidth < 760 ? "150px" : "200px",
+                width: window.innerWidth < 760 ? "230px" : "200px",
                 marginTop: "3rem",
               }}
               className="  focus-content__container"

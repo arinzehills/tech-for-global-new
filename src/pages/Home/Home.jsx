@@ -32,7 +32,7 @@ const Home = () => {
     headlineWhite: true,
     description:
       "Building, Inspiring and Supporting technology founders in developing countries for global innovations, expansion and impact.",
-    img: "/images/techsupport1.jpg",
+    img: "/images/techsupport3.jpg",
     imgalt1: "consistent content creation and content marketing",
     withBg: true,
     showButton: true,

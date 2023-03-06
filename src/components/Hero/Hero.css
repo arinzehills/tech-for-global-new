@@ -95,6 +95,7 @@ img {
   }
   .home__hero-img-wrapper {
     max-width: 300px;
+    margin-top: 3rem;
   }
   .col {
     max-width: 100%;

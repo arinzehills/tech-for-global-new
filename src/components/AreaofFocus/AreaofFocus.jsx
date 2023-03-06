@@ -59,7 +59,11 @@ const AreaofFocus = () => {
     },
   ];
   return (
-    <div>
+    <div
+      style={{
+        marginBottom: "3rem",
+      }}
+    >
       <div>
         <h1 style={{ color: "var(--blue-text)" }} className="centerClass">
           Area of Focus

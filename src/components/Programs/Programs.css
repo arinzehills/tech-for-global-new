@@ -36,4 +36,7 @@
     grid-template-columns: 1fr;
     /* display: none; */
   }
+  .programs-container {
+    width: 93%;
+  }
 }

@@ -33,14 +33,14 @@
 }
 @media screen and (max-width: 760px) {
   .programs-section-outer {
-    padding: 1rem;
+    /* padding: 1rem; */
   }
   .programs-section {
     grid-template-columns: 1fr;
     /* display: none; */
   }
   .programs-container {
-    width: 97%;
-    padding: 1em 1em 1em;
+    width: 95%;
+    /* padding: 1em 1em 1em; */
   }
 }

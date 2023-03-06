@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
+
 import {
   FaFacebook,
   FaInstagram,
@@ -15,55 +17,34 @@ function Footer() {
       <div className="footer_wrapper">
         {/* <FooterSvg /> */}
         <div className="footer-container">
-          {/* <section className="footer-subscription">
-            <p className="footer-subscription-heading">
-              Join our exclusive membership to receive the latest news and
-              trends
-            </p>
-            <p className="footer-subscription-text">
-              You can unsubscribe at any time.
-            </p>
-            <div className="input-areas">
-              <form>
-                <input
-                  className="footer-input"
-                  name="email"
-                  type="email"
-                  placeholder="Your Email"
-                />
-                <Button
-                  buttonStyle="btn--outline"
-                  buttonSize="btn--large"
-                  buttonColor="btn--normal"
-                  style={{ background: "white" }}
-                >
-                  Subscribe
-                </Button>
-              </form>
-            </div>
-          </section> */}
           <div className="footer-links">
             <div className="footer-link-wrapper">
+              <div className="footer-link-items">
+                <h2>Contact Us</h2>
+                <p>
+                  Email:{" "}
+                  <a href="mailto:info@radiantclothings.com">
+                    info@techglo.com
+                  </a>
+                </p>
+                <p>
+                  Mobile: <a href="tel:+91 9984924444">+91 9984924444</a>
+                </p>
+              </div>
               <div className="footer-link-items">
                 <h2>About Us</h2>
                 <Link to="/">Home</Link>
                 <Link to="/PrivacyPolicy">Privacy Policy</Link>
                 <Link to="/Terms">Terms of Service</Link>
               </div>
-              <div className="footer-link-items">
-                <h2>Contact Us</h2>
-                <Link to="/contact">Support</Link>
-                <Link to="/get-a-demo">Get a demo</Link>
-                <Link to="/contact">Contact</Link>
-              </div>
             </div>
             <div className="footer-link-wrapper">
               <div className="footer-link-items">
-                <h2>Pages</h2>
+                <h2>Contents</h2>
                 {/* <Link to="/">Home</Link> */}
-                <Link to="/pricing">Pricing</Link>
-                <Link to="/content-types">Content types</Link>
-                <Link to="/content-creators">Content creators</Link>
+                <ScrollLink to="about">About</ScrollLink>
+                <ScrollLink to="programs">Programs</ScrollLink>
+                <ScrollLink to="s">What we dp</ScrollLink>
                 {/* <a href="https://www.conterize.com/blog">Blog</a> */}
               </div>
 

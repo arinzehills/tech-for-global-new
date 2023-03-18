@@ -51,7 +51,10 @@ function Hero({
               )}
               <div className="home__hero-text-wrapper">
                 {/* <div className='top-line'>{topLine}</div> */}
-                <h1 className={headlineWhite ? "heading withWhite" : "heading"}>
+                <h1
+                  className={headlineWhite ? "heading withWhite" : "heading"}
+                  style={{ color: "white" }}
+                >
                   {headline}
                 </h1>
                 <p className="home__hero-subtitle">{description}</p>

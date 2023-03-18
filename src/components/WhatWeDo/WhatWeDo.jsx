@@ -49,6 +49,8 @@ const WhatWeDo = () => {
       >
         <Icon
           fontSize={"30px"}
+          style={{ color: "white" }}
+          color={"white"}
           icon={item?.icon ?? "fluent:person-support-20-filled"}
         />
       </div>
@@ -83,9 +85,10 @@ const WhatWeDo = () => {
             <div
               key={index}
               style={{
-                flex: 1,
                 padding: "2rem",
                 borderRadius: "10px",
+                display: "grid",
+                gap: "1rem",
               }}
               className={`${div.colorClass} `}
             >
@@ -93,8 +96,8 @@ const WhatWeDo = () => {
               <h2 style={{ color: "white" }}>{div.title}</h2>
               <p style={{ color: "white" }}>{div.description}</p>
               <ProgressBar
-                colorClass={"whigte"}
-                percent={div.percent ?? 0.19``}
+                colorClass={"white"}
+                percent={div.percent ?? 0.19}
                 width={100}
               />
             </div>

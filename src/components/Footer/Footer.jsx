@@ -59,7 +59,7 @@ function Footer() {
           <section
             className="social-media"
             style={{
-              lineHeight: 0,
+              lineHeight: 1,
               // background: "red",
               padding: "0",
               margin: 0,
@@ -76,6 +76,7 @@ function Footer() {
                 </Link>
               </div>
               <p style={{ color: "white" }}>All Rights Reserve</p>
+              <br></br>
               <small className="website-rights">Tech For Global © 2023</small>
             </div>
           </section>

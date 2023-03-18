@@ -53,7 +53,7 @@ function Hero({
                 {/* <div className='top-line'>{topLine}</div> */}
                 <h1
                   className={headlineWhite ? "heading withWhite" : "heading"}
-                  style={{ color: "white" }}
+                  style={{ color: "white", display: "block" }}
                 >
                   {headline}
                 </h1>

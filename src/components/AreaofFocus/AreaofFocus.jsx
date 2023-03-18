@@ -62,6 +62,7 @@ const AreaofFocus = () => {
     <div
       style={{
         marginBottom: "3rem",
+        marginTop: "3rem",
       }}
     >
       <div>

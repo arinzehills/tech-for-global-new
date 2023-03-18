@@ -75,7 +75,7 @@ header a:hover {
 }
 header a:hover::before {
   width: 50px;
-  margin-left: 10px;
+  margin-left: 0px;
 }
 header .nav-btn {
   padding: 0.9rem;
